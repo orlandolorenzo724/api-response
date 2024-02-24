@@ -50,7 +50,7 @@ Here's a quick guide on how to use the APIResponse class:
 Example:
 
 ```java
-APIResponse<String> response = APIResponse.ok(userDTO, responseHashMap, "successKey");
+APIResponse<UserDTO> response = APIResponse.ok(userDTO, responseHashMap, "successKey");
 ```
 
 ## Contributors
