@@ -31,6 +31,14 @@ mvn clean install
 
 Once the build is successful, you can include the library as a dependency in your project.
 
+```
+<dependency>
+    <groupId>it.orlandolorenzo</groupId>
+    <artifactId>apiresponse</artifactId>
+    <version>1.0.0</version>
+</dependency>
+```
+
 ## Usage
 
 Here's a quick guide on how to use the APIResponse class:
