@@ -11,14 +11,7 @@ import java.util.Map;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class APIResponse <T> {
-
-    private static final String RESULT_OK = "OK";
-    private static final String RESULT_KO = "KO";
-    private static final String RESULT_ERROR = "ERROR";
-    private static final String RESULT_WARNING = "WARNING";
-    private static final String RESULT_INFO = "INFO";
-    private static final String RESULT_FATAL = "FATAL";
+public class APIResponse <T> extends APIResponseResult {
 
     // The status of the API response, indicating success or failure.
     private String status;
